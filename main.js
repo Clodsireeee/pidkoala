@@ -118,7 +118,7 @@ window.onload = function () {
 
 
     // 載入各種遊戲資源圖片
-    coverImg = new Image(); coverImg.src = "assets/main.png";
+    coverImg = new Image(); coverImg.src = "assets/main.PNG";
     grassImg = new Image(); grassImg.src = "assets/grass.png";
     clodsireImg = new Image(); clodsireImg.src = "assets/clodsire.png";
     pokImg = new Image(); pokImg.src = "assets/pok.png";
