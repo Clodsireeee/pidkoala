@@ -293,7 +293,7 @@ function draw() {
             if (friendImg && friendImg.complete) {
                 const imgWidth = canvas.width * 0.2;
                 const imgHeight = imgWidth * (friendImg.height / friendImg.width);
-                const x = canvas.width/2;
+                const x = canvas.width/2+1000;
                 const y = canvas.height-imgHeight/2;
                 ctx.drawImage(friendImg, x, y, imgWidth, imgHeight);
             }
